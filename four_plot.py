@@ -1,0 +1,12 @@
+# coding: utf-8
+title('Sinusoids')
+clf()
+annotate('local max', xy=1.5,1)
+savefig('sin.png')
+close()
+clf()
+plot(y, sin(y))
+clg()
+clf()
+figure(1)
+plot(y, sin(y))
